@@ -1,0 +1,40 @@
+{
+  "name": "nwHacks",
+  "version": "1.0.0",
+  "description": "nwHacks's Website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.7.0",
+    "gulp-autoprefixer": "~0.0.7",
+    "gulp-minify-css": "~0.3.4",
+    "gulp-notify": "~1.3.1",
+    "gulp-rename": "~1.2.0",
+    "gulp-ruby-sass": "~0.5.0",
+    "gulp-sass": "~0.7.1",
+    "gulp-util": "~2.2.16",
+    "gulp-uglifyjs": "~0.3.0",
+    "gulp-uglify": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp phpunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwhacks/nwhacks"
+  },
+  "keywords": [
+    "hackathon",
+    "laravel"
+  ],
+  "author": {
+      "name": "Peter Deltchev",
+      "email": "peter@deltchev.com",
+      "url": "http://peter.deltchev.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwhacks/nwhacks/issues"
+  },
+  "homepage": "https://github.com/nwhacks/nwhacks"
+}
