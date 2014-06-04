@@ -29,8 +29,9 @@ Route::post('subscribe', function(){
 	if($validation->fails())
 		return Response::json(['message' => $validation->messages()->first()], 400);
 
-	$email = EmailAddress::create(array_merge(
+	EmailAddress::create(array_merge(
 		Input::only(['email', 'first_name', 'last_name', 'school']),
 		['ip_address' => Request::server('REMOTE_ADDR')]));
-	return $email;
+
+	return Response::json(['message' => 'Success!']);
 });
