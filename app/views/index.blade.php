@@ -55,9 +55,9 @@
 <section id="intro">
 
 	<div class="date">
-		<time datetime="2015-01-15">
+		<time datetime="2015-01-09">
 			<span class="month">January</span>
-			<span class="day">15<sup>th</sup></span>
+			<span class="day">9-11<sup>th</sup></span>
 			<br>
 			<span class="year">2015</span>
 		</time>
