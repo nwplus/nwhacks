@@ -17,13 +17,12 @@
 </head>
 
 <body>
-<header data-top="background-position:50% 40%" data--700-top="background-position:50% 100%">
+<header>
 	<div class="grid-container">
 		<div class="prefix-30 grid-40 suffix-30 tablet-prefix-20 tablet-grid-60 tablet-suffix-20" id="hero">
 			<div class="text">
-				<h2>The Pacific <br> Northwest&#39;s</h2>
-				<h3>biggest</h3>
-				<h2>hackathon</h2>
+				<h2>Build</h2><h3>Community</h3>
+				<h2>Build</h2><h3>Hacks</h3>
 			</div>
 			<img src="img/logo_notxt.png" alt="logo">
 
@@ -31,14 +30,14 @@
 			<button>Pre-Register Now</button>
 			<form style="display:none;">
 				<div class="grid-container">
-					<input class="grid-50 tablet-grid-50 mobile-grid-100" type="text" name="first_name" placeholder="first name" required />
-					<input class="grid-50 tablet-grid-50 mobile-grid-100" type="text" name="last_name" placeholder="last name" required />
+					<input class="grid-50 tablet-grid-50 mobile-grid-100" type="text" name="first_name" placeholder="First Name" required />
+					<input class="grid-50 tablet-grid-50 mobile-grid-100" type="text" name="last_name" placeholder="Last Name" required />
 				</div>
 				<div class="grid-container">
-					<input class="grid-100 tablet-grid-100 mobile-grid-100" type="text" name="school" placeholder="school/institution" required pattern=".{4,}" />
+					<input class="grid-100 tablet-grid-100 mobile-grid-100" type="text" name="school" placeholder="School or Institution" required pattern=".{4,}" />
 				</div>
 				<div class="grid-container">
-					<input class="grid-100 tablet-grid-100 mobile-grid-100" type="email" name="email" placeholder="your email address" required/>
+					<input class="grid-100 tablet-grid-100 mobile-grid-100" type="email" name="email" placeholder="Email" required/>
 				</div>
 				<div class="grid-container">
 					<input type="submit" value="Submit!" />
@@ -66,7 +65,9 @@
 		<h2 class="grid-100">THIS IS nwHACKS.</h2>
 
 		<p class="grid-70 suffix-30 tablet-grid-70 tablet-suffix-30 mobile-grid-90 mobile-suffix-10">
-			nwHacks is the largest hackathon in the Pacific Northwest, hosted every year in Vancouver, British Columbia.
+			nwHacks is the more than just coding. Our event is the most important event in the Pacific Northwest dedicated to building up the tech community in the most beautiful place on Earth.
+			<br>
+			<br> 
 			Anyone and everyone is welcome at nwHacks, from hackathon veterans to first-timers!
 		</p>
 	</article>
@@ -126,10 +127,10 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>Why <em>nw</em>Hacks?</h3>
 
-			<p>As the largest hackathon in the Pacific Northwest region, nwHacks is the place to be to discover new
-				talent as a sponsor, hone your skills as a participant, and make new friends as either. Because of the
-				wide reach of nwHacks, you will be interacting with the top talent from across British Columbia,
-				Washington, Oregon, Alberta and beyond.</p>
+			<p>British Columbia, Washington State, Oregon, and Alberta are currently seen as transit stations for tech companies. Designers, engineers, and business minds all flow down to California and shortly after university graduation. We want to change that.
+			<br>
+			<br>
+			nwHacks is dedicated to creating a thriving community of technology lovers in the Pacific Northwest region by bringing together the brightest minds for an epic two day event.</p>
 		</div>
 		<div class="question grid-50 tablet-grid-50">
 			<h3>What is a "hackathon"?</h3>
@@ -142,7 +143,7 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>How can I officially sign up?</h3>
 
-			<p>Official registration for nwHacks 2015 isn't open yet, but you can submit your email <a href="#intro">here</a>
+			<p>Official registration for nwHacks 2015 isn't open yet, but you can submit your email <a href="#hero">here</a>
 				to get updates as soon as they arrive.</p>
 		</div>
 
@@ -206,23 +207,17 @@
 
 <footer class="grid-parent">
 	<nav class="grid-container">
-		<a href="#">Register</a> <a href="#">Become a Sponsor</a> <a href="mailto:info@nwhacks.com">Email us</a>
+		<a href="#">Register</a> <a href="mailto:info@nwhacks.com">Become a Sponsor</a> <a href="mailto:info@nwhacks.com">Email us</a>
 	</nav>
-	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="http://apps.polydaic.com/" target="_blank">devApp</a>
+	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.facebook.com/groups/ubcappdevelopment/" target="_blank">App Dev</a>
 	</p>
 
 	<div class="imgcont"><img class src="img/logotxt.png" alt=""></div>
 
 </footer>
 
-{{--
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/jquery.js"></script>
-<script src="js/skrollr.js"></script>
-<script src="js/min/modernizr-ck.js"></script>
-<script src="js/min/tabby-ck.js"></script>
-<script src="js/min/main-ck.js"></script>
---}}
 <script src="js/min/scripts.min.js"></script>
+
+
 </body>
 </html>

@@ -44,6 +44,7 @@ header {
 	-webkit-background-size: cover;	
 	background-size: cover;
 	background-position: 50% 100%;
+
 	.triangle {
 		left: 0;
 		.big {left: 0;}
@@ -61,29 +62,39 @@ header {
 	text-align: center;
 	@media (max-width: 767px) {
       max-width: 450px; margin: 0 auto;
+      padding-top: 7em;
     }
 
 	.text {
 		float: left;
-		text-transform: uppercase;
-		@media (max-width: 360px) {text-shadow: 1px 1px black;}}
+		text-transform: uppercase; margin: 0 auto;
+		@media (max-width: 767px) {
+			-webkit-filter: drop-shadow(2px 2px 2px #111);
+			filter: drop-shadow(2px 2px 2px #111);
+			width: 100%;}
+}
 	h2 {
-		font-size: 3em; 
+		font-size: 2.6em; 
 		text-align: left;
-		@media (max-width: 767px) {font-size: 2.5em;}}
+		@media (max-width: 767px) {font-size: 2.5em; text-align: center;}}
 	h3 {
 		text-align: left;
-		font-size: 4em;font-weight: 600; 
-		@media (max-width: 767px) {font-size: 3.5em;}}
+		font-size: 3.5em;font-weight: 600; 
+		@media (max-width: 767px) {font-size: 3.5em; text-align: center;}}
 	img {
 		height: 100%;
-		//position: absolute;
 		float: right;
 		height: 13em;
 		right: 0;
 		top: 0;
-		@media (max-width: 767px) {height: 11em;}
-		@media (max-width: 370px) {float: none;}
+		@media (max-width: 767px) {
+			height: 11em;
+			margin: 0 auto;
+			float: none;
+			margin-top: 1em;
+			-webkit-filter: drop-shadow(2px 2px 2px #111);
+			filter: drop-shadow(2px 2px 2px #111);
+		}
 	}
 
     form {
