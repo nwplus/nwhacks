@@ -27,7 +27,7 @@
 			<img src="img/logo_notxt.png" alt="logo">
 
 			<div class="clear"></div>
-			<button><a href="/sponsors.pdf">Sponsor Us</a></button>
+			<button><a href="/sponsors.pdf" style="color:white padding-right: 10px">Sponsor Us</a></button>
 			<button>Pre-Register Now</button>
 			<form style="display:none;">
 				<div class="grid-container">
