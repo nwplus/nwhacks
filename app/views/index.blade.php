@@ -79,7 +79,7 @@
 <section id="stats" class="grid-container">
 	<ul class="grid-container">
 		<li class="grid-33 tablet-grid-33">
-			<dt>400+</dt>
+			<dt>300+</dt>
 			<dd>Hackers</dd>
 		</li>
 		<li class="grid-33 tablet-grid-33">
@@ -181,6 +181,12 @@
 				team beforehand, staff at the event will help you find other team mates and provide you with many
 				opportunities to find others to help!</p>
 		</div>
+        <div class="question grid-50 tablet-grid-50">
+            <h3>What happens if I don't have a team?</h3>
+
+            <p>Don't worry! A lot of hackers just like you are in the same position. On January 9th, the first day of the event, we will make sure to pair everyone up with a team of hackers so no one gets left out! There will also be an opportunity to connect with people and form teams before the event (after you have been chosen to attend)</p>
+        </div>
+
 	</article>
 
 	<article id="faq-sponsors" class="grid-container grid-parent">
@@ -200,7 +206,7 @@
 
 			<p>Definitely not! We welcome sponsors from across the world to help with our event, although it generally
 				helps if you have an office or presence in the region.</p>
-		</div>
+		</div>/Users/polydaic_mac/Downloads/nwHacks Designs.zip
 	</article>
 
 </section>
