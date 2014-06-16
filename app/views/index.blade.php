@@ -27,6 +27,7 @@
 			<img src="img/logo_notxt.png" alt="logo">
 
 			<div class="clear"></div>
+			<button><a href="/sponsors.pdf">Sponsor Us</a></button>
 			<button>Pre-Register Now</button>
 			<form style="display:none;">
 				<div class="grid-container">
@@ -193,7 +194,7 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>Where is the sponsorship package?</h3>
 
-			<p>It can be found right <a href="#">here</a>.</p>
+			<p>It can be found right <a href="/sponsors.pdf">here</a>.</p>
 		</div>
 		<div class="question grid-50 tablet-grid-50">
 			<h3>How do I get in touch for sponsorship opportunities?</h3>
@@ -213,7 +214,7 @@
 
 <footer class="grid-parent">
 	<nav class="grid-container">
-		<a href="#">Register</a> <a href="mailto:info@nwhacks.com">Become a Sponsor</a> <a href="mailto:info@nwhacks.com">Email us</a>
+		<!--<a href="#">Register</a>--> <a href="mailto:david@nwhacks.com">Become a Sponsor</a> <a href="mailto:david@nwhacks.com">Email us</a>
 	</nav>
 	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.facebook.com/groups/ubcappdevelopment/" target="_blank">App Dev</a>
 	</p>
