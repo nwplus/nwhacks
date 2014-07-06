@@ -216,7 +216,7 @@
 	<nav class="grid-container">
 		<!--<a href="#">Register</a>--> <a href="mailto:david@nwhacks.com">Become a Sponsor</a> <a href="mailto:david@nwhacks.com">Email us</a>
 	</nav>
-	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.facebook.com/groups/ubcappdevelopment/" target="_blank">App Dev</a>
+	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.startupstorm.org/" target="_blank">StartupStorm</a>
 	</p>
 
 	<div class="imgcont"><img class src="img/logotxt.png" alt=""></div>

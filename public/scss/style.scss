@@ -383,18 +383,22 @@ footer {
 		a {color: white; text-decoration: underline;}}
 }
 
-// Headings ***********************
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
+// SPONSOR PAGE *************************
+// SPONSOR PAGE *************************
+// SPONSOR PAGE *************************
+// SPONSOR PAGE *************************
+// SPONSOR PAGE *************************
 
-// Links **************************
-a {}
+header.sponsor-header {
+	background-position: 0% 80%;
+	padding: 0;
+}
 
-// Descriptions *******************
-dd {}
-dt {}
-
+#hero.sponsor-hero {
+	h2 {
+		font-size: 5em;
+		line-height: 4em;
+		text-align: center;
+	}
+}
 
