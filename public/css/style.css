@@ -1244,7 +1244,7 @@ header {
   font-family: lato, sans-serif;
   color: white;
   font-size: 12px;
-  padding: 0;
+  padding: 0 0 1em 0;
   text-align: center; }
   @media (max-width: 767px) {
     #hero {
@@ -1291,7 +1291,7 @@ header {
         filter: drop-shadow(2px 2px 2px #111111); } }
   #hero form {
     margin-top: 3em; }
-  #hero button, #hero input, #hero p.success {
+  #hero button, #hero input, #hero p.success, #hero a {
     display: inline-block;
     text-transform: uppercase;
     font-size: 18px;
@@ -1310,7 +1310,7 @@ header {
     -ms-transition: .2s all;
     -o-transition: .2s all;
     transition: .2s all; }
-    #hero button:hover, #hero input:hover, #hero p.success:hover {
+    #hero button:hover, #hero input:hover, #hero p.success:hover, #hero a:hover {
       background-color: white;
       color: #164416; }
   #hero button {
