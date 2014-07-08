@@ -43,7 +43,7 @@
 					<input type="submit" value="Submit!" />
 				</div>
 			</form>
-			<a id="sponsor-btn" href="/sponsors.pdf">Sponsor Us</a>
+			<a id="sponsor-btn" href="sponsor.html">Sponsor Us</a>
 		</div>
 
 		<div class="triangle"><img class="small" src="img/darkgreentriangle.png" alt=""><img class="big"
@@ -194,7 +194,7 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>Where is the sponsorship package?</h3>
 
-			<p>It can be found right <a href="/sponsors.pdf">here</a>.</p>
+			<p>It can be found right <a href="sponsor.html">here</a>.</p>
 		</div>
 		<div class="question grid-50 tablet-grid-50">
 			<h3>How do I get in touch for sponsorship opportunities?</h3>
@@ -207,7 +207,7 @@
 
 			<p>Definitely not! We welcome sponsors from across the world to help with our event, although it generally
 				helps if you have an office or presence in the region.</p>
-		</div>/Users/polydaic_mac/Downloads/nwHacks Designs.zip
+		</div>
 	</article>
 
 </section>
