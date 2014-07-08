@@ -27,7 +27,6 @@
 			<img src="img/logo_notxt.png" alt="logo">
 
 			<div class="clear"></div>
-			<button><a href="/sponsors.pdf" style="color:white!important; padding-right: 10px; font-style: none!important">Sponsor Us</a></button>
 			<button>Pre-Register Now</button>
 			<form style="display:none;">
 				<div class="grid-container">
@@ -44,6 +43,7 @@
 					<input type="submit" value="Submit!" />
 				</div>
 			</form>
+			<a id="sponsor-btn" href="sponsor.html">Sponsor Us</a>
 		</div>
 
 		<div class="triangle"><img class="small" src="img/darkgreentriangle.png" alt=""><img class="big"
@@ -194,7 +194,7 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>Where is the sponsorship package?</h3>
 
-			<p>It can be found right <a href="/sponsors.pdf">here</a>.</p>
+			<p>It can be found right <a href="sponsor.html">here</a>.</p>
 		</div>
 		<div class="question grid-50 tablet-grid-50">
 			<h3>How do I get in touch for sponsorship opportunities?</h3>
@@ -207,7 +207,7 @@
 
 			<p>Definitely not! We welcome sponsors from across the world to help with our event, although it generally
 				helps if you have an office or presence in the region.</p>
-		</div>/Users/polydaic_mac/Downloads/nwHacks Designs.zip
+		</div>
 	</article>
 
 </section>
@@ -216,7 +216,7 @@
 	<nav class="grid-container">
 		<!--<a href="#">Register</a>--> <a href="mailto:david@nwhacks.com">Become a Sponsor</a> <a href="mailto:david@nwhacks.com">Email us</a>
 	</nav>
-	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.facebook.com/groups/ubcappdevelopment/" target="_blank">App Dev</a>
+	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.startupstorm.org/" target="_blank">StartupStorm</a>
 	</p>
 
 	<div class="imgcont"><img class src="img/logotxt.png" alt=""></div>

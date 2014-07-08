@@ -58,11 +58,11 @@ header {
 	font-family: lato, sans-serif;
 	color: white;
 	font-size: 12px;
-	padding: 0;
+	padding: 0 0 7em 0;
 	text-align: center;
 	@media (max-width: 767px) {
       max-width: 450px; margin: 0 auto;
-      padding-top: 7em;
+      padding-top: 2em;
     }
 
 	.text {
@@ -101,7 +101,7 @@ header {
       margin-top: 3em;
     }
 
-	button, input, p.success {
+	button, input, p.success, a{
 		display: inline-block;
 		text-transform: uppercase;
 		font-size: 18px;
@@ -126,7 +126,8 @@ header {
 	}
 
     button {
-      margin: 125px auto 100px auto;
+  	margin: 1em 1em;
+    @media (max-width: 767px) {margin: 1em auto;}
     }
 
     input:not([type="submit"]) {
@@ -382,19 +383,152 @@ footer {
 		@media (max-width: 767px) {font-size: 1.2em;}
 		a {color: white; text-decoration: underline;}}
 }
+/////////////////////////////////////////////////////////
+////////////////// SPONSOR PAGE /////////////////////////
+////////////////// SPONSOR PAGE /////////////////////////
+////////////////// SPONSOR PAGE /////////////////////////
+////////////////// SPONSOR PAGE /////////////////////////
+////////////////// SPONSOR PAGE /////////////////////////
+/////////////////////////////////////////////////////////
 
-// Headings ***********************
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
+header.sponsor-header {
+	background-position: 50% 80%;
+	background-image: url(../img/sponsor.jpg);
+	padding: 0;
+}
 
-// Links **************************
-a {}
+#hero.sponsor-hero {
+	height: 350px;
+	padding: 5em 0;
+	@media (max-width: 767px) {margin: 0 auto; padding: 0;} 
+	h2 {
+		@include vertical-align;
+		font-size: 5em;
+		text-align: center;
+	}
+}
 
-// Descriptions *******************
-dd {}
-dt {}
+#about {
+	padding: 2.5em 0;
+	article {
+				position: relative;
+				font-family: lato, sans-serif;
+				color: $darkgrey;
+				z-index: 5 !important;
+				img {margin-bottom: 2.5em;}
+				h2 {
+					text-transform: uppercase;
+					z-index: 5;
+					font-weight: 700;
+					font-size: 1.5em;
+					margin: 1em 0;}
+				h3 {
+					text-transform: uppercase;
+					font-weight: 700;
+					color: $basegreen;
+				}
+				p {
+					z-index: 5;
+					font-size: 1.2em;
+					line-height: 1.3em;
+					font-weight: 300;
+					padding-bottom: 1em;
+					}
+				}
+}
 
+#table {
+	padding: 0 0 5em 0;
+	font-family: 'lato', sans-serif;
 
+	h2 {
+	color: $darkgrey;
+	text-transform: uppercase;
+	z-index: 5;
+	font-weight: 700;
+	font-size: 1.5em;
+	margin: 1em 0;
+	}
+
+	table {
+	margin: 0 10px;
+	//@media (max-width: 600px) {display: none;} 		
+	tr{
+		color: $maingrey;
+		height: 4em;
+		th {
+			width: 20%;
+			text-align: left;
+			padding-right: 5px;
+			vertical-align: middle;
+			}
+		
+		td {color: white;
+			text-align: center;
+			height: 4em;
+			vertical-align: middle;
+			border: 10px solid white;
+			a {color: white;}
+		}
+		
+		td.money {background-color: $gold}
+		td.yes {
+			background-color: $lightgreen;
+			&:after {
+				content:'';
+				display: block;
+				margin: 0 auto;
+				height: 15px;
+				width: 15px;
+				vertical-align: middle;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-image: url('../img/checkmark-icon.png');
+			}}
+		
+		td.content {&:after {display:none;}}
+		td.no {background-color: lighten($maingrey,45%);}
+		}
+	thead {
+			
+		th {
+			width: auto; //make top row not effected by width setting
+			color: $darkgrey;
+			text-align: center;
+			text-decoration: underline;
+			font-weight: 700;
+			}
+	}
+	
+
+	
+	}
+.pdf {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 4em;
+	a {
+		background-color: $basegreen;
+		position: relative;
+		height: 3em;
+		padding: 1em;
+		color: white;
+		text-decoration: none;
+		font-weight: 500;
+		//border-bottom: 5px solid $darkgreen;
+		box-shadow: 0 3px 0 0 $darkgreen;
+		border-radius: 5px;
+		top: 0px;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			box-shadow: none;
+			text-decoration: none;
+			top: 5px;
+			border: none;
+		}
+	}
+	}
+}

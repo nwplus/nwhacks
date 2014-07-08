@@ -1244,13 +1244,13 @@ header {
   font-family: lato, sans-serif;
   color: white;
   font-size: 12px;
-  padding: 0;
+  padding: 0 0 7em 0;
   text-align: center; }
   @media (max-width: 767px) {
     #hero {
       max-width: 450px;
       margin: 0 auto;
-      padding-top: 7em; } }
+      padding-top: 2em; } }
   #hero .text {
     float: left;
     text-transform: uppercase;
@@ -1291,7 +1291,7 @@ header {
         filter: drop-shadow(2px 2px 2px #111111); } }
   #hero form {
     margin-top: 3em; }
-  #hero button, #hero input, #hero p.success {
+  #hero button, #hero input, #hero p.success, #hero a {
     display: inline-block;
     text-transform: uppercase;
     font-size: 18px;
@@ -1310,11 +1310,14 @@ header {
     -ms-transition: .2s all;
     -o-transition: .2s all;
     transition: .2s all; }
-    #hero button:hover, #hero input:hover, #hero p.success:hover {
+    #hero button:hover, #hero input:hover, #hero p.success:hover, #hero a:hover {
       background-color: white;
       color: #164416; }
   #hero button {
-    margin: 125px auto 100px auto; }
+    margin: 1em 1em; }
+    @media (max-width: 767px) {
+      #hero button {
+        margin: 1em auto; } }
   #hero input:not([type="submit"]) {
     color: #57655f;
     background: #fff;
@@ -1566,3 +1569,126 @@ footer {
     footer p a {
       color: white;
       text-decoration: underline; }
+
+header.sponsor-header {
+  background-position: 50% 80%;
+  background-image: url(../img/sponsor.jpg);
+  padding: 0; }
+
+#hero.sponsor-hero {
+  height: 350px;
+  padding: 5em 0; }
+  @media (max-width: 767px) {
+    #hero.sponsor-hero {
+      margin: 0 auto;
+      padding: 0; } }
+  #hero.sponsor-hero h2 {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 5em;
+    text-align: center; }
+
+#about {
+  padding: 2.5em 0; }
+  #about article {
+    position: relative;
+    font-family: lato, sans-serif;
+    color: #57655f;
+    z-index: 5 !important; }
+    #about article img {
+      margin-bottom: 2.5em; }
+    #about article h2 {
+      text-transform: uppercase;
+      z-index: 5;
+      font-weight: 700;
+      font-size: 1.5em;
+      margin: 1em 0; }
+    #about article h3 {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #45af75; }
+    #about article p {
+      z-index: 5;
+      font-size: 1.2em;
+      line-height: 1.3em;
+      font-weight: 300;
+      padding-bottom: 1em; }
+
+#table {
+  padding: 0 0 5em 0;
+  font-family: 'lato', sans-serif; }
+  #table h2 {
+    color: #57655f;
+    text-transform: uppercase;
+    z-index: 5;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 1em 0; }
+  #table table {
+    margin: 0 10px; }
+    #table table tr {
+      color: #7c847f;
+      height: 4em; }
+      #table table tr th {
+        width: 20%;
+        text-align: left;
+        padding-right: 5px;
+        vertical-align: middle; }
+      #table table tr td {
+        color: white;
+        text-align: center;
+        height: 4em;
+        vertical-align: middle;
+        border: 10px solid white; }
+        #table table tr td a {
+          color: white; }
+      #table table tr td.money {
+        background-color: #316b50; }
+      #table table tr td.yes {
+        background-color: #44c689; }
+        #table table tr td.yes:after {
+          content: '';
+          display: block;
+          margin: 0 auto;
+          height: 15px;
+          width: 15px;
+          vertical-align: middle;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-image: url("../img/checkmark-icon.png"); }
+      #table table tr td.content:after {
+        display: none; }
+      #table table tr td.no {
+        background-color: #f2f3f3; }
+    #table table thead th {
+      width: auto;
+      color: #57655f;
+      text-align: center;
+      text-decoration: underline;
+      font-weight: 700; }
+  #table .pdf {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 4em; }
+    #table .pdf a {
+      background-color: #45af75;
+      position: relative;
+      height: 3em;
+      padding: 1em;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      box-shadow: 0 3px 0 0 #316b50;
+      border-radius: 5px;
+      top: 0px; }
+      #table .pdf a:hover {
+        text-decoration: underline; }
+      #table .pdf a:active {
+        box-shadow: none;
+        text-decoration: none;
+        top: 5px;
+        border: none; }
