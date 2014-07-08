@@ -15,7 +15,10 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
-
+=Route::get('/sponsors', function()
+{
+	return View::make('sponsors');
+});
 
 
 Route::post('subscribe', function(){
