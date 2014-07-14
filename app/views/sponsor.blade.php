@@ -153,7 +153,7 @@
 				<td class="yes"></td>
 			</tr>
 			<tr>
-				<th>Access to attendees' GitHub accounts, LinkedIn profiles, and resumes before event</th>
+				<th>Access to attendees&#39; GitHub accounts, LinkedIn profiles, and resumes before event</th>
 				<td class="no"></td>
 				<td class="no"></td>
 				<td class="yes"></td>
