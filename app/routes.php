@@ -15,7 +15,7 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
-=Route::get('/sponsors', function()
+Route::get('/sponsors', function()
 {
 	return View::make('sponsors');
 });
