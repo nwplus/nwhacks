@@ -11,12 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
+Route::get('/', function(){
 	return View::make('index');
 });
-Route::get('/sponsors', function()
-{
+
+Route::get('sponsors', function(){
+	return Redirect::to('sponsor');
+});
+Route::get('sponsor', function(){
 	return View::make('sponsors');
 });
 
