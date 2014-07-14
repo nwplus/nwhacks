@@ -26,12 +26,12 @@
 		<a href="http://www.nwhacks.com/"><img src="/img/logotxt_green.jpg" class="grid-20 suffix-80 tablet-grid-30 tablet-suffix-70 mobile-grid-60 mobile-suffix-40"></a>
 		<h2 class="grid-100">About</h2>
 		<p class="grid-100">
-		nwHacks (Northwest Hacks) is an annual hackathon held at the University of British Columbia, and shaping up to be the premiere community event for young hackers and engineers in the Pacific Northwest Region (including the US and 
-		Canada). The event will host some of the best up-and-coming engineers and developers from across the continent and beyond to 
+		nwHacks (Northwest Hacks) is an annual hackathon held at the University of British Columbia, shaping up to be the premier community event for young hackers and engineers in the Pacific Northwest Region - including both the US and 
+		Canada. Our event will host some of the best up-and-coming engineers and developers from across the continent and beyond to 
 		create mobile, web, and hardware hacks for 48 hours. Bringing in students from around the region, nwHacks is 
-		commited to encouraging and kickstarting a culture of innovation, entrepreneurship and community among 
-		future hackers of the region. nwHacks seeks to keep innovation in the area through the hackathon and providing a 
-		welcoming and supportive environment to allow everyone to realize their dreams and develop their skills. 
+		committed to encouraging and kickstarting a culture of innovation, entrepreneurship, and community among 
+		future hackers of the region. We seek to keep innovation in the area through the hackathon and by providing a 
+		welcoming, supportive environment to allow everyone to realize their dreams and develop their skills. 
 		</p>
 		<h2 class="grid-100">When &#38; Where</h2>
 		<p class="grid-100">
@@ -44,7 +44,7 @@
 		<h2 class="grid-100">Get the most out of your sponsorship:</h2>
 		<h3 class="grid-100">Send Company Swag</h3>
 		<p class="grid-100">
-			Sending branded stickers, t-shirts, watter bottles, etc., is a great way for sponsors to promote their company brand through passive advertising. Hackers love swag, so the more you bring, the more successful your sponsorship will be!
+			Sending branded stickers, T-shirts, water bottles, etc., is a great way for sponsors to promote their company brand through passive advertising. Hackers love swag, so the more you bring, the more successful your sponsorship will be!
 		</p>
 		<h3 class="grid-100">Send Engineers</h3>
 		<p class="grid-100">
@@ -115,7 +115,7 @@
 			<tr>
 				<th>Tech Seminar at Event</th>
 				<td class="no"></td>
-				<td class="yes content">5 Minute</td>
+				<td class="yes content">5 Minutes</td>
 				<td class="yes content">10 Minutes</td>
 				<td class="yes content">20 Minutes</td>
 				<td class="yes content">40 Minutes</td>
@@ -153,7 +153,7 @@
 				<td class="yes"></td>
 			</tr>
 			<tr>
-				<th>Access to GitHub accounts, LinkedIn profiles, and resumes before event.</th>
+				<th>Access to attendees' GitHub accounts, LinkedIn profiles, and resumes before event</th>
 				<td class="no"></td>
 				<td class="no"></td>
 				<td class="yes"></td>
@@ -205,7 +205,7 @@
 	<p class="grid-container">nwhacks 2015 - Organised and held by <a href="https://www.startupstorm.org/" target="_blank">StartupStorm</a>
 	</p>
 
-	<div class="imgcont"><a href="http://www.nwhacks.com/"><img class src="img/logotxt.png" alt=""></a></div>
+	<div class="imgcont"><a href="http://nwhacks.com/"><img class src="img/logotxt.png" alt=""></a></div>
 </footer>
 
 <script src="js/min/scripts.min.js"></script>
