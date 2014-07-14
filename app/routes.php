@@ -19,7 +19,7 @@ Route::get('sponsors', function(){
 	return Redirect::to('sponsor');
 });
 Route::get('sponsor', function(){
-	return View::make('sponsors');
+	return View::make('sponsor');
 });
 
 
