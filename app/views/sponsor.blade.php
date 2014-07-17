@@ -2,11 +2,10 @@
 <html>
 <head>
 	<title>Sponsor Us | nwHacks 2015</title>
-	<link rel="icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/fontello.css">
-	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="icon" type="image/png" href="favicon.png">
 	<meta
 		name="viewport"
 		content="
