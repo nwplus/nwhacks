@@ -5,6 +5,7 @@
 	<link rel="icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="/favicon.png">
 	<meta
 		name="viewport"
 		content="
@@ -194,7 +195,7 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>Where is the sponsorship package?</h3>
 
-			<p>It can be found right <a href="sponsor.html">here</a>.</p>
+			<p>It can be found right <a href="/sponsor">here</a>.</p>
 		</div>
 		<div class="question grid-50 tablet-grid-50">
 			<h3>How do I get in touch for sponsorship opportunities?</h3>
