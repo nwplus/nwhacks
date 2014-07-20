@@ -67,7 +67,7 @@
 				<th>Friend</th>
 				<th>Mega</th>
 				<th>Giga</th>
-				<th>Terra</th>
+				<th>Tera</th>
 				<th>Title Sponsor</th>
 			</tr>
 			</thead>
@@ -113,12 +113,20 @@
 				<td class="yes"></td>
 			</tr>
 			<tr>
-				<th>Tech Seminar at Event</th>
+				<th>Tech Demo</th>
 				<td class="no"></td>
 				<td class="yes content">5 Minutes</td>
 				<td class="yes content">10 Minutes</td>
 				<td class="yes content">20 Minutes</td>
 				<td class="yes content">40 Minutes</td>
+			</tr>
+			<tr>
+				<th>Tech Taltk</th>
+				<td class="no"></td>
+				<td class="no "></td>
+				<td class="yes content">30 Minutes</td>
+				<td class="yes content">45 Minutes</td>
+				<td class="yes content">1 hour</td>
 			</tr>
 			<tr>
 				<th>Company Swag in Swag Bag</th>
@@ -131,7 +139,7 @@
 			<tr>
 				<th>Logo on T-Shirt</th>
 				<td class="no"></td>
-				<td class="no"></td>
+				<td class="yes"></td>
 				<td class="yes"></td>
 				<td class="yes"></td>
 				<td class="yes"></td>
@@ -153,20 +161,20 @@
 				<td class="yes"></td>
 			</tr>
 			<tr>
-				<th>Access to attendees&#39; GitHub accounts, LinkedIn profiles, and resumes before event</th>
-				<td class="no"></td>
-				<td class="no"></td>
-				<td class="yes"></td>
-				<td class="yes"></td>
-				<td class="yes"></td>
+				<th>Access to attendees&#39; GitHub accounts, LinkedIn profiles, and resumes </th>
+				<td class="yes">Resumes Only - Post Event </td>
+				<td class="no"> Resumes Only - Post Event </td>
+				<td class="yes">All - Post Event </td>
+				<td class="yes">All - Pre Event </td>
+				<td class="yes">All - Pre Event</td>
 			</tr>
 			<tr>
 				<th>Recruiters at Event</th>
 				<td class="no"></td>
 				<td class="no"></td>
-				<td class="no"></td>
-				<td class="yes content">2</td>
+				<td class="yes content">1</td>
 				<td class="yes content">3</td>
+				<td class="yes content">5</td>
 			</tr>
 			<tr>
 				<th>Company Banner at Venue</th>
@@ -174,7 +182,7 @@
 				<td class="no"></td>
 				<td class="no"></td>
 				<td class="yes"></td>
-				<td class="yes"></td>
+				<td class="yes">At closing ceremonies too</td>
 			</tr>
 			<tr>
 				<th>Sponsored activities at venue (e.g. company corner and raffle)</th>
