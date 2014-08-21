@@ -162,11 +162,11 @@
 			</tr>
 			<tr>
 				<th>Access to attendees&#39; GitHub accounts, LinkedIn profiles, and resumes </th>
-				<td class="yes">Resumes Only - Post Event </td>
-				<td class="no"> Resumes Only - Post Event </td>
-				<td class="yes">All - Post Event </td>
-				<td class="yes">All - Pre Event </td>
-				<td class="yes">All - Pre Event</td>
+				<td class="yes content">Resumes Only: Post-Event </td>
+				<td class="yes content">Resumes Only: Post-Event </td>
+				<td class="yes content">Everything: Post-Event </td>
+				<td class="yes content">Everything: Pre-Event </td>
+				<td class="yes content">Everything: Pre-Event</td>
 			</tr>
 			<tr>
 				<th>Recruiters at Event</th>
