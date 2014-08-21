@@ -182,7 +182,7 @@
 				<td class="no"></td>
 				<td class="no"></td>
 				<td class="yes"></td>
-				<td class="yes">At closing ceremonies too</td>
+				<td class="yes content">Featured in Closing Ceremony</td>
 			</tr>
 			<tr>
 				<th>Sponsored activities at venue (e.g. company corner and raffle)</th>
