@@ -121,7 +121,7 @@
 				<td class="yes content">40 Minutes</td>
 			</tr>
 			<tr>
-				<th>Tech Taltk</th>
+				<th>Tech Talk</th>
 				<td class="no"></td>
 				<td class="no "></td>
 				<td class="yes content">30 Minutes</td>
