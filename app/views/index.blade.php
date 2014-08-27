@@ -95,7 +95,7 @@
 	</ul>
 </section>
 
-<section id="sponsors">
+<!-- <section id="sponsors">
 	<article class="grid-container">
 		<h2 class="">Sponsors</h2>
 
@@ -112,7 +112,7 @@
 		<div class="sponsor grid-25 tablet-grid-25 mobile-grid-50 bronze"><h3>Your Company Here</h3></div>
 		<div class="sponsor grid-25 tablet-grid-25 mobile-grid-50 bronze"><h3>Your Company Here</h3></div>
 	</article>
-</section>
+</section> -->
 
 <section id="faq">
 	<div class="grid-container">
