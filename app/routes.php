@@ -16,7 +16,7 @@ Route::get('/', function(){
 });
 
 Route::get('micro', function(){
-	return Redirect::to('micro');
+	return View::make('micro');
 });
 
 Route::get('sponsors', function(){
