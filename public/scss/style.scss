@@ -20,6 +20,8 @@
 .active {display: block !important;}
 .hidden {display: none !important;}
 
+html,body {height: 100%;}
+
 body {text-rendering: optimizeLegibility}
 
 // Main block components *********
@@ -532,3 +534,178 @@ header.sponsor-header {
 	}
 	}
 }
+
+///////////////////////////////////////////////////////////////
+////////////////// NWHACKS MICRO PAGE /////////////////////////
+////////////////// NWHACKS MICRO PAGE /////////////////////////
+////////////////// NWHACKS MICRO PAGE /////////////////////////
+////////////////// NWHACKS MICRO PAGE /////////////////////////
+////////////////// NWHACKS MICRO PAGE /////////////////////////
+///////////////////////////////////////////////////////////////
+
+#micro-header {
+	background-image: url("../img/micro/background_image1.jpg");
+	background-position: center;
+	background-size: cover;
+	max-height: 90%;
+	height: 700px;
+	padding: 0;
+	overflow: hidden;
+	@media (max-width: $media-tablet-max) {height: 600px;}
+	@media (max-width: $media-mobile-max) {height: 300px;}
+	.darkness {
+		display: none;
+		display: block;
+		position: absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		transition: 1s all;
+		background-color: rgba(#000,.2);
+		@media (max-width: $media-tablet-max) {background-color: rgba(#000,.4);}
+		@media (max-width: $media-mobile-max) {background-color: rgba(#000,.6);}
+	}
+	.text {
+		position: absolute;
+		right: 0;
+	}
+	.logo-left {
+		@include vertical-align;
+		z-index: 999;
+		width: 245px;
+		height: 59.5px;
+		left: 10%;
+	}
+	.triangle-left {
+		top: 0;
+		left: 0;
+		width: 70%;
+		height: 100%;
+		max-width: 900px;
+		position: absolute;
+		.triangle {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;}
+		.logo {
+			@include vertical-align;
+			transition: .3s all;
+			width: 40%;
+			min-width: 200px;
+			left: 5%;
+			@media (max-width: $media-mobile-max) {
+				top: 5%; left: 5%;
+				-webkit-transform: translateY(0%);
+				-ms-transform: translateY(0%);
+				transform: translateY(0%);
+				}
+			z-index: 999;
+		}
+	}
+	.triangle-right {
+		width: 60%;
+		max-width: 800px;
+		right: -15%;
+		bottom: 0;
+		position: absolute;
+		img {
+			position: absolute;
+			bottom: 0;}
+	}
+	#micro-hero {
+	margin: 0;
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	font-size: 1.5em;
+	z-index: 999;
+	color: white;
+	font-family: 'lato', sans-serif;
+	h2 {font-weight: 300; font-size: 1.5em; text-shadow: 2px 2px 0 #2b6a45; margin: 0;}
+	h3 {font-weight: 700; font-size: 4em; padding: 0 0 0 .5em; margin: 0; text-shadow: 4px 4px 0 #419e67}
+	}
+}
+
+#micro-intro {
+	overflow: hidden;
+	position: relative;
+	* {position: relative; z-index: 999;}
+	.logo {
+		text-align: center;
+		padding: 50px 0 15px 0;
+		img {display: inline-block; height: 100px;}
+	}
+	.date {
+		font-family: 'lato', sans-serif;
+		color: #c1c1c1;
+		font-size: 1em;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	p {
+		font-family: 'lato', sans-serif;
+		color: #666666;
+		text-align: center;
+		line-height: 1.4em;
+		font-size: 1em;
+		padding: 0 10% 20px 10%;
+	}
+
+	form {
+		font-family: 'lato', sans-serif;
+		label {
+			color: #666;
+			font-size: 1.2em;
+			padding: 1em 0 .3em 0;
+			display: inline-block;
+			font-weight: 700;
+
+		}
+		input {
+			border-radius: 0;
+			background-color: #f0f0f0;
+			color: #a5aaa6;
+			border: 1px solid #dfdfdf;
+			font-size: 1em;
+			width: 100%;
+			padding: .75em;
+			display: block;
+			margin-top: .5em;
+		}
+		textarea {
+			@extend input;
+			height: 6em;
+		}
+		input[type=submit] {
+			margin: 2em 0;
+			background-color: #6cdc8e;
+			color: white;
+			font-weight: 900;
+
+		}
+	}
+	.grey-triangle-right {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+		width: 60%;
+		max-width: 780px;
+		img {
+			width: 100%;
+			bottom: 0;
+			right: 0;
+			position:
+			absolute;}
+		}
+	.grey-triangle-left {
+		position: absolute;
+		max-width: 494px;
+		width: 60%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		img {
+			width: 100%;
+			top: 0; left: 0; position: absolute;}
+		}
+}
+
