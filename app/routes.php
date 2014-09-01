@@ -15,9 +15,14 @@ Route::get('/', function(){
 	return View::make('index');
 });
 
+Route::get('micro', function(){
+	return Redirect::to('micro');
+});
+
 Route::get('sponsors', function(){
 	return Redirect::to('sponsor');
 });
+
 Route::get('sponsor', function(){
 	return View::make('sponsor');
 });
